@@ -1,0 +1,70 @@
+body{
+    background-image: url("https://bi.im-g.pl/im/ff/66/1a/z27683327V,-Outer-Banks-.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+}
+
+body section nav {
+    position: absolute;
+    width: 720px;
+    height: 65px;
+    left: 92px;
+    top: 0px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+body section nav p {
+    width: 120px;
+    height: 20px;
+    background: #EDA04D;
+    float: left;
+    margin-left: 25px;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+}
+
+body section nav div{
+    display: flex;
+    flex-direction: wrap;
+    justify-content: center;
+}
+
+#tytuł{
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    color: #FFFFFF;
+    bottom: 30px;
+    font-size: 60px;
+    width: 200px;
+    left: 70px;
+}
+
+#menu_button{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    height: 46px;
+    width: 46px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+#menu_button:hover > #menu_buttons2{
+    right: 200px;
+}
+
+#menu_buttons2{
+    position: absolute;
+    bottom: 0px;
+    height: 200px;
+    width: 200px;
+    background-color: #fff;
+    right: -200px;
+    
+}
