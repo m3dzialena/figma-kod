@@ -1,0 +1,23 @@
+#elipsa{
+shape-outside: ellipse(40% 50% at left);
+background: #EDA04D;
+height: 1000px;
+width: 1000px;
+border-radius: 50%;
+position: absolute;
+top: -600px;
+right: -450px;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#kolo{
+    border: 1px black dotted;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
