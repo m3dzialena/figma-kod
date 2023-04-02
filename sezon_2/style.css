@@ -1,0 +1,84 @@
+#elipsa {
+  shape-outside: ellipse(40% 50% at left);
+  background: #eda04d;
+  height: 1000px;
+  width: 1000px;
+  border-radius: 50%;
+  position: absolute;
+  top: -600px;
+  right: -270px;
+  z-index: -1;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+#kolo {
+  border: 1px black dashed;
+  height: 320px;
+  width: 320px;
+  border-radius: 50%;
+  position: absolute;
+  right: 20%;
+  z-index: 1000;
+  top: 37%;
+}
+
+h1 {
+  display: block;
+  color: black;
+  width: 36%;
+  font-size: 84px;
+  position: absolute;
+  bottom: 65%;
+  left: 64%;
+  text-align: center;
+  line-height: 40px;
+  z-index: 10000;
+  font-weight: bold;
+}
+
+section header {
+  display: block;
+  background-color: #eda04d;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+section header p {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 40px;
+  height: 40px;
+}
+
+section header p a {
+  text-decoration: none;
+  color: black;
+}
+
+.s2 {
+  width: 28%;
+  position: absolute;
+  top: 33%;
+  left: 87px;
+  font-size: 22px;
+}
+
+.s2zdj{
+  border-radius: 50%;
+  position: absolute;
+  top: 63%;
+  right: 45%;
+}
+#zdjecia{
+  width: 300px;
+  height: 300px;
+  position: relative;
+  float: right;
+}
