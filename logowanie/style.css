@@ -1,0 +1,60 @@
+body {
+  background-image: url("https://www.stuttgarter-nachrichten.de/media.media.a7ce8c1e-00de-4ed7-ad1e-a5e57afea595.original1024.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  overflow: hidden;
+}
+
+section {
+  position: relative;
+  width: 300px;
+  height: 60px;
+  margin: auto;
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+input[type="text"] {
+  width: 250px;
+  background: transparent;
+  height: 30px;
+  text-indent: 20px;
+  margin-top: 15px;
+}
+input[type="text"]::placeholder {
+color: #ffffff;
+}
+input[type="submit"] {
+  width: 258px;
+  background: white;
+  height: 30px;
+  margin-top: 15px;
+}
+
+button {
+  height: 30px;
+  width: 120px;
+  position: relative;
+  float: left;
+}
+.haslo {
+  position: relative;
+  float: right;
+  margin-right: 43px;
+}
+form {
+  margin-bottom: 20px;
+}
+
+#kontener {
+  position: absolute;
+  width: 100%;
+  margin: 0 auto;
+  height: 100% !important;
+  top: 25%;
+  display: block;
+  text-align: center;
+}
